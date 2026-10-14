@@ -3,6 +3,8 @@ title: "Human Protein Atlas"
 author: "Ibrahim Nazir"
 ---
 ```{r}
+# This code calculates the sum of elevated genes in the forebrain of the human, pig and mouse species.
+
 forebrain_human <- sum(180,83,57,110)
 forebrain_pig <- sum(109,157,31,45)
 forebrain_mouse <- sum(55,185,60,98)
