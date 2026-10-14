@@ -1,0 +1,39 @@
+---
+title: "Practical_1_Introduction_to_R/prac1_exercises"
+author: "Ibrahim Nazir"
+---
+```{r}
+sqrt(9)
+```
+A function takes 1 or more inputs called arguments. They often return an output.
+
+The function is the sqrt(), the input (9) which is the argument and the output is the square root of the number.
+
+```{r}
+round(3.14159)
+```
+```{r}
+round(3.14159, digits = 2)
+```
+This is the rounding function and can be rounded to the required significant figures.
+
+```{r}
+print(seq(1,10,2))
+print(seq(5,15,5))
+```
+The sequence function generates a sequence of numbers with the arguments being in order: form (first number). to (last number) and by (the increment).
+```{r}
+print(seq(by = 2, from = 1, to = 10))
+print(seq(by = 5, to = 15, from = 5))
+```
+The name of the arguments can be used when required.
+```{r}
+print(rep(2,5))
+print(rep(x = 2, times = 5))
+```
+This function repeats the value,x, for a specific number of times. The order of the arguments is rep(x,times).
+```{r}
+print(rep(5,7))
+print(rep(x = 5, times = 7))
+```
+
