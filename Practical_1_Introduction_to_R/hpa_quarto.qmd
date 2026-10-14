@@ -1,0 +1,16 @@
+---
+title: "Human Protein Atlas"
+author: "Ibrahim Nazir"
+---
+```{r}
+forebrain_human <- sum(180,83,57,110)
+forebrain_pig <- sum(109,157,31,45)
+forebrain_mouse <- sum(55,185,60,98)
+
+print(forebrain_human)
+print(forebrain_pig)
+print(forebrain_mouse)
+```
+The question being addressed is the elevated genes in the forebrain of the human, pig and mouse species.
+
+The human species had the highest number of genes with regionally elevated expression with a total of 430 in the forebrain.
