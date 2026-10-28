@@ -1,0 +1,26 @@
+---
+title: "Practical_1_Introduction_to_R/ukhsa_data_analysis.qmd"
+author: "Ibrahim Nazir"
+---
+```{r}
+library(tidyverse)
+library(gt)
+```
+```{r}
+# The head() function with gt() is used to visualise the first ten lines.
+
+# Need to include data/ followed by the name of the file.
+
+chart <- read_csv("data/ukhsa-chart-download.csv")
+gt(chart)
+```
+```{r}
+ggplot(chart, aes(
+  x = period_start,
+  y = metric_value,
+)) +
+  geom_line(colour = "red")
+xlab("Date")
+ylab("Number of Measles Cases)")
+ggtitle("Number of Measles Cases by Date")
+```
