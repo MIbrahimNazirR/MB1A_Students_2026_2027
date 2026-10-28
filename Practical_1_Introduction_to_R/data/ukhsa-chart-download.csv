@@ -1,0 +1,8 @@
+theme,sub_theme,topic,geography_type,geography,metric,sex,age,stratum,period_start,period_end,metric_value
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,05-10,default,2026-01-01 00:00:00,2026-10-12 00:00:00,22.4000
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,35+,default,2026-01-01 00:00:00,2026-10-12 00:00:00,9.9000
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,25-34,default,2026-01-01 00:00:00,2026-10-12 00:00:00,11.1000
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,15-24,default,2026-01-01 00:00:00,2026-10-12 00:00:00,11.9000
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,11-14,default,2026-01-01 00:00:00,2026-10-12 00:00:00,6.0000
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,01-04,default,2026-01-01 00:00:00,2026-10-12 00:00:00,26.8000
+infectious_disease,vaccine_preventable,Measles,Nation,England,measles_headline_cumulativeCasesAgePercent,all,00-01,default,2026-01-01 00:00:00,2026-10-12 00:00:00,11.8000
